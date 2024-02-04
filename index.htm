@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>WEATHER INFO</title>
+</head>
+<body>
+    <div class="container">
+        <h1>CURRENT WEATHER</h1>
+        <div class="weather-container">
+            <div class="search-container">
+                <input type="text" id="city-input" placeholder="Enter you location">
+                <button onclick="getWeather()">Search</button>
+            </div>
+            <div class="weather-info">
+              <p id="temperature">Temperature: </p>
+              <p id="humidity">Humidity: </p>
+              <p id="wind-speed">Wind Speed: </p>
+          </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
