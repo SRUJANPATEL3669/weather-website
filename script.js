@@ -18,10 +18,11 @@ function getWeather() {
 
             document.getElementById('temperature').innerText = `Temperature: ${temperature} °C`;
             document.getElementById('humidity').innerText = `Humidity: ${humidity}%`;
-            document.getElementById('wind-speed').innerText = `Wind Speed: ${windSpeed} m/s`;
+            document.getElementById('wind-speed').innerText = `Wind Speed: ${Math.round(windSpeed*3.6)} km/hr`;
         })
         .catch(error => {
             alert('Error fetching weather data. Please try again.');
             console.error(error);
         });
 }
+
