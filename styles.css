@@ -14,15 +14,15 @@ body {
 }
 
 .weather-container {
-    background-color: #84a296;
-    padding: 100px;
-    border-radius: 50px;
+    background-color: #51328a;
+    padding: 20px;
+    border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .weather-info {
-    font-size: 30px;
-    font-weight: 600;
+    font-size: 20px;
+    font-weight: 300;
     margin-bottom: 20px;
 }
 
@@ -33,14 +33,14 @@ body {
 }
 
 input {
-    padding: 30px;
-    margin-right: 40px;
+    padding: 10px;
+    margin-right: 20px;
     border: 1px solid #d3dba8;
     border-radius: 5px;
 }
 
 button {
-    padding: 28px 70px;
+    padding: 8px 20px;
     background-color: #909f6d;
     color: #fbfbf8;
     border: none;
